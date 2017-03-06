@@ -1,44 +1,80 @@
 body {
-     font-family: arial, Helvetica, sans-serif;
-     font-size: 15px;
-     line-height: 1.5;
-     padding: 0;
-     margin: 0;
-     background-color: #f4f4f4;
- }
- form {
-      color: red;
- }
- #happy {
-     padding: 40px;
-     background-color: white;
- }
- #party{
-     padding: 40px;
-     background-color: orange;
- }
- #breakfast{
-     background-image: url("../images/foodtop/breakfast.jpg");
-     height: 210px;
- }
- #lunchez {
-     background-image: url("../images/foodtop/lunch.jpg");
-     height: 210px;
- }
- #dinner {
-     background-image: url("../images/foodtop/dinner.jpg");
-     height: 210px;
- }
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: georgia;
+}
+
+#branding {
+    text-align: center;
+    margin-left: 185px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    color: red;
+}
+
+#happy {
+    padding: 40px;
+    background-color: white;
+    font-size: 36;
+    height: 105px;
+}
+
+#party {
+    padding: 40px;
+    background-color: orange;
+    margin-bottom: 50px;
+    height: 105px;
+}
+
+#breakfast {
+    background-image: url("../images/foodtop/breakfast.jpg");
+    height: 210px;
+    text-align: center;
+    color: white;
+}
+
+#lunchez {
+    background-image: url("../images/foodtop/lunch.jpg");
+    height: 210px;
+    text-align: center;
+    color: white;
+}
+
+#dinner {
+    background-image: url("../images/foodtop/dinner.jpg");
+    height: 210px;
+    text-align: center;
+    color: white;
+}
+
+.wah {
+    background-image: url(../images/backgrounds/foodsBg.jpg);
+}
+
+
 /* global */
+
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
+
 ul {
     margin: 0;
     padding: 0;
 }
+
 .button_1 {
     height: 38px;
     background: #e8491d;
@@ -47,112 +83,159 @@ ul {
     padding-right: 20px;
     color: white;
 }
+
 .dark {
-    padding:15px;
+    padding: 15px;
     background: #F15A29;
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+
 /* header */
+
 header {
-    background: #F15A29;
+    background-image: url("../images/backgrounds/landing.jpg");
     color: white;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
+
 header a {
     color: ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16;
 }
+
 header li {
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
+
 header #branding {
     float: left;
 }
+
 header #branding h1 {
     margin: 0;
 }
+
 header nav {
     float: right;
     margin-top: 10px;
 }
-header .highlight, header .current a {
+
+header .highlight,
+header .current a {
     color: #e8491d;
     font-weight: bold;
 }
+
 header a:hover {
     color: #cccccc;
 }
 
-/*landing*/
-#landing {
-    min-height: 400px;
-    background-image: url("../images/backgrounds/foodsBg.jpg");
-    text-align: center;
-    color: white;
-}
-#landing h1 {
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;
-}
-#landing p {
-    font-size: 20px;
-}
 #lunch {
+    background-image: url("../images/backgrounds/subscribe.jpg");
     padding: 15px;
     color: white;
-    background: #35424a;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-top: 50px;
+    height: 250px;
+    width: 100%;
 }
+
 #lunch h1 {
-    float: left;
+    text-align: center;
 }
+
 #lunch form {
-    float: right;
+    float: left;
     margin-top: 15px;
+    margin-left: 500px;
 }
+
 #lunch input[type="email"] {
     padding: 4px;
     height: 25px;
     width: 250px;
 }
 
-/*Boxes*/
-#boxes {
-    margin: 20px;
-}
-#boxes .box {
-    float: left;
-    width: 30%;
-    padding: 10px;
+//*********/
+.table {
+    background: #FFFFFF;
+    color: #F15A29;
+    width: 100%;
 }
 
+.menu-tabs {
+    margin: 0px 200px 0px 200px;
+    padding-top: 100px;
+    border: 0pt;
+}
+
+.tab-content {
+    color: white;
+}
+
+.menu-tabs .nav ul:first-child {
+    color: #F15A29;
+}
+
+h4 {
+    text-align: center;
+}
+
+menu-tabs .nav li a:active {
+    color: #F15A29;
+    text-decoration: none;
+    border: 0pt;
+}
+
+.testimonials {
+    text-align: center;
+    margin: 75px 100px 75px 100px;
+    border: 10px solid #fff;
+    box-shadow: -1px 1px 5px 4px #E3E3E3;
+    padding: 20px 20px 20px 20px;
+}
+
+.testimonials h4 {
+    color: #F15A29;
+}
+
+//*******//
+
 /*sidebar*/
+
 aside#sidebar {
     float: right;
     width: 30%;
     margin-top: 10px;
 }
-aside#sidebar .quote input, aside#sidebar .quote textarea {
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
     width: 90%;
     padding: 5px;
 }
 
+
 /*main col*/
+
 article#main-col {
     float: left;
-    width: 65%;
+    width: 90%;
 }
 
+
 /**delicacies**/
+
 ul#delicacies li {
     list-style: none;
     padding: 20px;
@@ -161,7 +244,9 @@ ul#delicacies li {
     background: #e6e6e6;
 }
 
+
 /*beginning of footer*/
+
 footer {
     padding: 20px;
     margin-top: 20px;
