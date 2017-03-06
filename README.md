@@ -1,12 +1,20 @@
-# Independent Project
+#project
+Anita's Resturant
 
-## Instructions
-  1) Please fork the Moringa School **mpft1-ip** repo to your own account.
+Author: James Kimani
 
-  2) Clone **your forked repo** to your own machine.`
+##Description
+This is a website of Anita's Resturant displaying the different meals served, Their menu among many other things 
 
-  3) Complete the independent project.
+### Tech used
+*html
+*css
+*bootstrap
 
-  4) Push your commits up to your forked repo.
-  
-  5) Send the link pointing to your repo to your Technical mentor via *slack*
+
+##setup
+```bash
+$ git clone https://jamesmkimani.github.io/Anitas-Resturant/
+
+##License
+This project is released under the [MIT License](./LICENSE.md)
